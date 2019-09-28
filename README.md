@@ -1,2 +1,2 @@
 # FreshSn0w
-iPwnDfu Basic Gui
+Redsn0w Like Tool. No Jailbreak Funcion Yet, but can put device into pwndfu mode with iPwnDfu and open a irecovery shell
