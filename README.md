@@ -1,2 +1,2 @@
 # FreshSn0w
-iPwnDfu Basic Gu9
+iPwnDfu Basic Gui
