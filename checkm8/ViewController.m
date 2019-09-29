@@ -24,13 +24,6 @@ struct am_device* device;
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.]
-    
-    [[_makesn0w cell] setBackgroundColor:[NSColor systemBlueColor]];
-    [[_updatebutton cell] setBackgroundColor:[NSColor systemBlueColor]];
-    [[_recovery cell] setBackgroundColor:[NSColor systemBlueColor]];
-    [[_pwnxout cell] setBackgroundColor:[NSColor systemBlueColor]];
-    [[_autobootout cell] setBackgroundColor:[NSColor systemBlueColor]];
-    [[_rebootout cell] setBackgroundColor:[NSColor systemBlueColor]];
 
 
 

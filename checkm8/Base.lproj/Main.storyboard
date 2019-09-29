@@ -685,7 +685,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="FreshSn0w" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" hasShadow="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
+                    <window key="window" title="FreshSn0w" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="442" y="27" width="700" height="700"/>
@@ -715,9 +715,9 @@
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TG3-qL-S7n">
                                 <rect key="frame" x="265" y="335" width="170" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="CY5-Pn-BiF"/>
+                                    <constraint firstAttribute="height" constant="30" id="K3E-Km-0g6"/>
                                 </constraints>
-                                <buttonCell key="cell" type="bevel" title="Pwndfu" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="gX1-nv-Jiq">
+                                <buttonCell key="cell" type="bevel" title="Pwndfu" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="gX1-nv-Jiq" customClass="BlueButton">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -729,9 +729,9 @@
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2N2-ja-osy">
                                 <rect key="frame" x="194" y="373" width="312" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="OlF-rX-vZW"/>
+                                    <constraint firstAttribute="height" constant="30" id="j4y-T4-E9g"/>
                                 </constraints>
-                                <buttonCell key="cell" type="bevel" title="iPwndfu -X (replace limera1n with alloc8 3GS Only)" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="9Mn-Fc-Ndl">
+                                <buttonCell key="cell" type="bevel" title="iPwndfu -X (replace limera1n with alloc8 3GS Only)" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="9Mn-Fc-Ndl" customClass="BlueButton">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                     <connections>
@@ -743,9 +743,9 @@
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QUC-uQ-Or4">
                                 <rect key="frame" x="265" y="298" width="170" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="29" id="YBr-K5-AXi"/>
+                                    <constraint firstAttribute="height" constant="29" id="fbR-wc-O0s"/>
                                 </constraints>
-                                <buttonCell key="cell" type="bevel" title="iRecovery" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="xJc-Gh-dN2">
+                                <buttonCell key="cell" type="bevel" title="iRecovery" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="xJc-Gh-dN2" customClass="BlueButton">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -757,10 +757,10 @@
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Z2O-Ay-COg">
                                 <rect key="frame" x="265" y="411" width="170" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="GlF-Nz-EIC"/>
-                                    <constraint firstAttribute="width" constant="170" id="KSU-VE-o3Y"/>
+                                    <constraint firstAttribute="width" constant="170" id="Mju-tz-BtI"/>
+                                    <constraint firstAttribute="height" constant="30" id="OnE-Mg-29h"/>
                                 </constraints>
-                                <buttonCell key="cell" type="bevel" title="Update/install iPwndfu" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="JJt-Ia-FCc">
+                                <buttonCell key="cell" type="bevel" title="Update/install iPwndfu" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="JJt-Ia-FCc" customClass="BlueButton">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -772,9 +772,9 @@
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pcI-rS-ada">
                                 <rect key="frame" x="265" y="261" width="170" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="29" id="4DW-VP-IxP"/>
+                                    <constraint firstAttribute="height" constant="29" id="llB-cT-YyA"/>
                                 </constraints>
-                                <buttonCell key="cell" type="bevel" title="Auto-Boot" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="yJU-37-ST2">
+                                <buttonCell key="cell" type="bevel" title="Auto-Boot" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="yJU-37-ST2" customClass="BlueButton">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -786,10 +786,10 @@
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cxE-fO-a1c">
                                 <rect key="frame" x="258" y="224" width="184" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="184" id="Dti-HH-WBP"/>
-                                    <constraint firstAttribute="height" constant="29" id="kwG-uO-Wfl"/>
+                                    <constraint firstAttribute="width" constant="184" id="NdZ-aL-AC1"/>
+                                    <constraint firstAttribute="height" constant="29" id="VKR-d0-DHn"/>
                                 </constraints>
-                                <buttonCell key="cell" type="bevel" title="Reboot device from recovery" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="5Se-Ne-nnx">
+                                <buttonCell key="cell" type="bevel" title="Reboot device from recovery" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="5Se-Ne-nnx" customClass="BlueButton">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -800,21 +800,21 @@
                             </button>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="QUC-uQ-Or4" firstAttribute="top" secondItem="TG3-qL-S7n" secondAttribute="bottom" constant="8" symbolic="YES" id="0HP-DQ-MoC"/>
-                            <constraint firstItem="pcI-rS-ada" firstAttribute="top" secondItem="QUC-uQ-Or4" secondAttribute="bottom" constant="8" symbolic="YES" id="0OG-aP-1jh"/>
-                            <constraint firstItem="QUC-uQ-Or4" firstAttribute="leading" secondItem="pcI-rS-ada" secondAttribute="leading" id="38d-mm-Doo"/>
-                            <constraint firstItem="Z2O-Ay-COg" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="ADY-23-1KJ"/>
-                            <constraint firstItem="2N2-ja-osy" firstAttribute="top" secondItem="Z2O-Ay-COg" secondAttribute="bottom" constant="8" symbolic="YES" id="BeY-Ew-CpZ"/>
-                            <constraint firstItem="TG3-qL-S7n" firstAttribute="trailing" secondItem="QUC-uQ-Or4" secondAttribute="trailing" id="EfH-et-L8f"/>
-                            <constraint firstItem="TG3-qL-S7n" firstAttribute="top" secondItem="2N2-ja-osy" secondAttribute="bottom" constant="8" symbolic="YES" id="Ouk-X5-Xlg"/>
-                            <constraint firstItem="QUC-uQ-Or4" firstAttribute="trailing" secondItem="pcI-rS-ada" secondAttribute="trailing" id="gzP-2f-9kl"/>
-                            <constraint firstItem="TG3-qL-S7n" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="hFr-3G-eQL"/>
-                            <constraint firstItem="TG3-qL-S7n" firstAttribute="leading" secondItem="QUC-uQ-Or4" secondAttribute="leading" id="iOf-PS-ofb"/>
-                            <constraint firstItem="pcI-rS-ada" firstAttribute="centerX" secondItem="cxE-fO-a1c" secondAttribute="centerX" id="mqc-ya-Ojv"/>
-                            <constraint firstItem="Z2O-Ay-COg" firstAttribute="centerX" secondItem="2N2-ja-osy" secondAttribute="centerX" id="t7z-DV-FKG"/>
-                            <constraint firstItem="Z2O-Ay-COg" firstAttribute="trailing" secondItem="TG3-qL-S7n" secondAttribute="trailing" id="uqg-12-ERz"/>
-                            <constraint firstItem="cxE-fO-a1c" firstAttribute="top" secondItem="pcI-rS-ada" secondAttribute="bottom" constant="8" symbolic="YES" id="wVt-3w-gOC"/>
-                            <constraint firstItem="Z2O-Ay-COg" firstAttribute="leading" secondItem="TG3-qL-S7n" secondAttribute="leading" id="zUi-Zm-fqz"/>
+                            <constraint firstItem="Z2O-Ay-COg" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="0Uj-cE-753"/>
+                            <constraint firstItem="TG3-qL-S7n" firstAttribute="leading" secondItem="QUC-uQ-Or4" secondAttribute="leading" id="2SL-F0-aYr"/>
+                            <constraint firstItem="QUC-uQ-Or4" firstAttribute="leading" secondItem="pcI-rS-ada" secondAttribute="leading" id="3WH-9F-T3k"/>
+                            <constraint firstItem="TG3-qL-S7n" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="86Q-mC-PEa"/>
+                            <constraint firstItem="Z2O-Ay-COg" firstAttribute="centerX" secondItem="2N2-ja-osy" secondAttribute="centerX" id="C5P-DI-0QL"/>
+                            <constraint firstItem="TG3-qL-S7n" firstAttribute="trailing" secondItem="QUC-uQ-Or4" secondAttribute="trailing" id="Chm-gz-ibA"/>
+                            <constraint firstItem="TG3-qL-S7n" firstAttribute="top" secondItem="2N2-ja-osy" secondAttribute="bottom" constant="8" symbolic="YES" id="Ln5-a7-MlV"/>
+                            <constraint firstItem="pcI-rS-ada" firstAttribute="top" secondItem="QUC-uQ-Or4" secondAttribute="bottom" constant="8" symbolic="YES" id="MmL-AT-p5u"/>
+                            <constraint firstItem="Z2O-Ay-COg" firstAttribute="trailing" secondItem="TG3-qL-S7n" secondAttribute="trailing" id="PRM-rG-Tub"/>
+                            <constraint firstItem="pcI-rS-ada" firstAttribute="centerX" secondItem="cxE-fO-a1c" secondAttribute="centerX" id="QbH-MN-fwp"/>
+                            <constraint firstItem="QUC-uQ-Or4" firstAttribute="top" secondItem="TG3-qL-S7n" secondAttribute="bottom" constant="8" symbolic="YES" id="TiC-5f-ep1"/>
+                            <constraint firstItem="2N2-ja-osy" firstAttribute="top" secondItem="Z2O-Ay-COg" secondAttribute="bottom" constant="8" symbolic="YES" id="Xbs-El-orf"/>
+                            <constraint firstItem="Z2O-Ay-COg" firstAttribute="leading" secondItem="TG3-qL-S7n" secondAttribute="leading" id="ePc-As-8Si"/>
+                            <constraint firstItem="QUC-uQ-Or4" firstAttribute="trailing" secondItem="pcI-rS-ada" secondAttribute="trailing" id="pg6-Ip-A84"/>
+                            <constraint firstItem="cxE-fO-a1c" firstAttribute="top" secondItem="pcI-rS-ada" secondAttribute="bottom" constant="8" symbolic="YES" id="wkS-lX-nb4"/>
                         </constraints>
                     </view>
                     <connections>
